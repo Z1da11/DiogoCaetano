@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005gL000001n4zZQAQ",
+      "createdByName": "OrgFarm EPIC",
+      "createdDate": "2025-04-15T06:46:55.000Z",
+      "fileName": "profileSessionSettings/PT1_profileSessionSetting1740026011694.profileSessionSetting",
+      "fullName": "PT1_profileSessionSetting1740026011694",
+      "id": "0HUgL000000JsUXWA0",
+      "lastModifiedById": "005gL000001n4zZQAQ",
+      "lastModifiedByName": "OrgFarm EPIC",
+      "lastModifiedDate": "2025-04-15T06:46:55.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005gL0000025PRFQA2",
+      "createdByName": "Diogo Manuel Henriques Caetano",
+      "createdDate": "2025-04-25T14:19:21.000Z",
+      "fileName": "tabs/Country__c.tab",
+      "fullName": "Country__c",
+      "id": "01rgL0000035YmGQAU",
+      "lastModifiedById": "005gL0000025PRFQA2",
+      "lastModifiedByName": "Diogo Manuel Henriques Caetano",
+      "lastModifiedDate": "2025-04-25T14:19:21.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    }
+  ]
+}

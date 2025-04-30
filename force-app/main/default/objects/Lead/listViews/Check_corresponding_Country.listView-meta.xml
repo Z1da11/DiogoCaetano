@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_corresponding_Country</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COUNTRY_CODE</columns>
+    <columns>Country_Alpha2__c</columns>
+    <columns>Country_Alpha3__c</columns>
+    <columns>Country_Capital__c</columns>
+    <columns>Country_Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notContain</operation>
+        <value>closed</value>
+    </filters>
+    <label>Check corresponding Country</label>
+</ListView>

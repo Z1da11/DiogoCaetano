@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005gL0000025PRFQA2",
+      "createdByName": "Diogo Manuel Henriques Caetano",
+      "createdDate": "2025-04-26T09:54:40.000Z",
+      "fileName": "triggers/LeadCountry.trigger",
+      "fullName": "LeadCountry",
+      "id": "01qgL000000QRe5QAG",
+      "lastModifiedById": "005gL0000025PRFQA2",
+      "lastModifiedByName": "Diogo Manuel Henriques Caetano",
+      "lastModifiedDate": "2025-04-26T09:58:15.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}
