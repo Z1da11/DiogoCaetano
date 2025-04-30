@@ -1,18 +1,34 @@
-# Salesforce DX Project: Next Steps
+## Solution to the problem:
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## 1.
 
-## How Do You Plan to Deploy Your Changes?
+- Register and Login to the CountryLabel API.
+- Create a namedCredentials to call the API:
+  - Assign NamedCredential permission to System Administrator.
+- Create an object in Salesforce with the name Country:
+  - Create fields within this object to store the information coming from the API.
+- Create an apex schedule:
+  - To call the batch 1x a day.
+- Create a batch to call the API and execute the desired functionalities.
+- Create fields within the Lead object to be populated via the Apex Trigger.
+- Create Apex Trigger to populate fields in the Lead object, based on the Lead's country.
+- Update the Lead layout to show the functionality.
+  Improvements:
+- Could have created an Apex Wrapper class to make it easier to read the code and access the variables.
+  Missing:
+- Create a test class for the batch.
+- Create HttpCalloutMock to test the API response.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 2.
 
-## Configure Your Salesforce DX Project
+- Create validation rule in Lead object (Not fully tested)
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## 3.
 
-## Read All About It
+- I haven't done anything
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Why didn't I have time to solve the problem?
+
+I had some internet / light problems (Portugal), lack of connection with the api (API 404). Workload throughout the week. Events throughout the week.
+
+![alt text](Justify.PNG)
