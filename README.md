@@ -23,7 +23,8 @@
 
 - Create a test class for the batch.
 - Create HttpCalloutMock to test the API response.
-- Missing the retrive the information from the field regionalBlocs (acronyms). (check image2)
+- Missing the retrive the information from the field regionalBlocs (acronyms).
+  - The regionalBlocs parent and child variables (acronyms) do not appear in the API retrieve (check image2).
 
 # 2.
 
